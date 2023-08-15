@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="exemplo1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualg</title>
+</head>
+<body>
+    <div class="texto" style="text-align: center;">
+        <h1 style="color: aliceblue;">Algoritimo 33</h1>
+        <a href="index.html"><button>Pagina Inicial</button><br><br>
+        <img src=ALG33.PNG></a>
+    </div>
+    <textarea id="textos">
+        Algoritmo "33"
+Var
+nome, endereco, idade: caracter
+
+Inicio
+escreva("Digite seu nome: ")
+leia(nome)
+escreva("Digite seu endereço: ")
+leia(endereco)
+escreva("Digite sua idade: ")
+leia(idade)
+Fimalgoritmo
+            </textarea>
+            <div>
+                <button id="copiar">Copiar</button>
+            </div>
+        </body>
+        </html>
+</body>
+</html>
+<script>
+        const textInput = document.getElementById('textos');
+        const copyButton = document.getElementById('copiar');
+    
+        copyButton.addEventListener('click', ()=> {
+          textInput.select();
+          document.execCommand('copy');
+        });
+    </script>

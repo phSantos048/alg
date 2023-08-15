@@ -1,0 +1,15 @@
+body{
+background-image: url("https://s1.1zoom.me/big0/60/Pond_Painting_Art_Night_461943.jpg");
+background-size: cover;
+}
+button{
+ border-radius: 15px;
+ width: 275px;
+ font-size: large;
+ font-size: x-large;
+}
+.texto{
+    text-align: center;
+    margin-top: 275px;
+    font-size: x-large;
+}

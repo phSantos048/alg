@@ -1,0 +1,13 @@
+body{
+    background-image: url("https://s1.1zoom.me/big0/60/Pond_Painting_Art_Night_461943.jpg");
+    background-size: cover;
+    text-align: center;
+    }
+    button{
+     border-radius: 15px;
+     width: 180px;
+     font-size: large;
+    }
+    p{
+        color: aliceblue;
+    }
